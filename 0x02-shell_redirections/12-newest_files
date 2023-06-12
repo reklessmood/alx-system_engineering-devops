@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | grep -v ^d | awk {print } | head -n 10
