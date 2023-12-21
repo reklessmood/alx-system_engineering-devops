@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# echo best school ten times
+# This script is displaying "Best School" 10 times
+
 i=0
+
 until [ $i -eq 10 ]
 do
     echo "Best School"
-    ((i++))
+    (( i++ ))
 done

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# check for school file
+# Bash script that gives you information about the school file.
 
 if [ -e "school" ]
 then
@@ -10,6 +10,7 @@ then
     else
         echo "school file is empty"
     fi
+
     if [ -f "school" ]
     then
         echo "school is a regular file"
